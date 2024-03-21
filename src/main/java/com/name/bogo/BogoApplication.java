@@ -13,6 +13,7 @@ public class BogoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BogoApplication.class, args);
+		//  input 
 
 		Integer[] productPriceList1 = { 10, 20, 30, 40, 50, 60 };
 		Integer[] productPriceList2 = { 10, 20, 30, 40, 50, 50, 60 };
@@ -21,7 +22,7 @@ public class BogoApplication {
 		Integer[] productPriceList5 = { 10, 20, 30, 40, 40, 50, 60, 60 };
 		Integer[] productPriceList6 = { 5, 5, 10, 20, 30, 40, 50, 50, 50, 60 };
 //		getDiscounts(productPriceList6);
-		
+		// iterating over the set of input
 		for (Integer[] productPriceList : Arrays.asList(productPriceList1, productPriceList2, productPriceList3,
 				productPriceList4, productPriceList5, productPriceList6)) {
 			getDiscounts(productPriceList);
