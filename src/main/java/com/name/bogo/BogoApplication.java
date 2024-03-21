@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.name.bogo;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -9,10 +9,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Demo1Application {
+public class BogoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Demo1Application.class, args);
+		SpringApplication.run(BogoApplication.class, args);
 
 		Integer[] productPriceList1 = { 10, 20, 30, 40, 50, 60 };
 		Integer[] productPriceList2 = { 10, 20, 30, 40, 50, 50, 60 };
