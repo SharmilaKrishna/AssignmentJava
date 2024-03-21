@@ -9,10 +9,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BogoApplication {
+public class BOGOApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BogoApplication.class, args);
+		SpringApplication.run(BOGOApplication.class, args);
 		//  input 
 
 		Integer[] productPriceList1 = { 10, 20, 30, 40, 50, 60 };
